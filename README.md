@@ -1,6 +1,6 @@
 # pkcs7
 
-[![Build Status](https://github.com/DFIR-ORC-private/pkcs7-go/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/DFIR-ORC-private/pkcs7-go/actions/workflows/ci.yml?query=branch%3Amaster+event%3Apush)
+[![Build Status](https://github.com/DFIR-ORC/pkcs7-go/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/DFIR-ORC/pkcs7-go/actions/workflows/ci.yml?query=branch%3Amaster+event%3Apush)
 
 pkcs7 implements parsing and creating signed and enveloped messages.
 
@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
     
-    pkcs7 "https://github.com/DFIR-ORC-private/pkcs7-go"
+    pkcs7 "https://github.com/DFIR-ORC/pkcs7-go"
 )
 
 func SignAndDetach(content []byte, cert *x509.Certificate, privkey *rsa.PrivateKey) (signed []byte, err error) {
