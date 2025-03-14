@@ -1,3 +1,3 @@
-module go.mozilla.org/pkcs7
+module https://github.com/DFIR-ORC-private/pkcs7-go
 
 go 1.11
